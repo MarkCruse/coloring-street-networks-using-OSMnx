@@ -108,7 +108,7 @@ fig, ax = ox.plot_graph(graph, bgcolor='k', axis_off=True, node_size=0, node_col
 ```
 
 
-![png](output_17_0.png)
+![png](images/output_15_0.png)
 
 
 #### Output spatial graph to PNG file
