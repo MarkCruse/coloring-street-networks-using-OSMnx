@@ -109,5 +109,5 @@ venv.bak/
 #VScode settings
 .VScode
 
-
+cache/
 data-do-not-upload
