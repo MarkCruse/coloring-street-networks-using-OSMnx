@@ -141,3 +141,4 @@ __Install packages__
 [OSMnx: Python for Street Networks](https://geoffboeing.com/2016/11/osmnx-python-street-networks/)  
 [gboeing/osmnx-examples Github](https://github.com/gboeing/osmnx-examples)  
 [Retrieving OpenStreetMap data in Python](https://towardsdatascience.com/retrieving-openstreetmap-data-in-python-1777a4be45bb)  
+[Creating beautiful maps with Python Python + OSMnx](https://towardsdatascience.com/creating-beautiful-maps-with-python-6e1aae54c55c)  
