@@ -103,8 +103,8 @@ lineWidthList = [linewidth(str(row['highway']).lower()) for index, row in geo_df
 
 
 ```python
-fig, ax = ox.plot_graph(graph, bgcolor='k', axis_off=True, node_size=0, node_color='w', node_edgecolor='gray', node_zorder=2,
-                        edge_color=edgeColorList, edge_linewidth=lineWidthList, edge_alpha=1, fig_height=20, dpi=300)
+fig, ax = ox.plot_graph(graph,bgcolor='k', node_size=0, node_color='w', node_edgecolor='gray', node_zorder=2,
+                        edge_color=edgeColorList, edge_linewidth=lineWidthList, edge_alpha=1, dpi=300)
 ```
 
 
@@ -133,7 +133,7 @@ __Setting up a GEO/GIS environment__
 `conda config --env --set channel_priority strict`  
 
 __Install packages__  
-`conda install python=3 geopandas pandas numpy shapely fiona pyproj six matplotlib mapclassify descartes osmnx networkx jupyterlab rtree geojson contextily folium plleaflet pysal rasterio rasterstats pycrs`  
+`conda install python=3 geopandas pandas numpy shapely fiona pyproj six matplotlib mapclassify descartes osmnx networkx jupyterlab rtree geojson contextily folium ipyleaflet pysal rasterio rasterstats pycrs`  
 
 <a name="sources"></a> 
 ### Sources
